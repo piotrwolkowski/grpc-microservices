@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/piotrwolkowski/microservices/proto/golang/order"
+	"github.com/piotrwolkowski/grpc-microservices/proto/golang/order"
 	"github.com/stretchr/testify/suite"
 	"github.com/testcontainers/testcontainers-go"
 	"google.golang.org/grpc"

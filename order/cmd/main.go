@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/piotrwolkowski/microservices/order/config"
-	"github.com/piotrwolkowski/microservices/order/internal/adapters/db"
-	"github.com/piotrwolkowski/microservices/order/internal/adapters/grpc"
-	"github.com/piotrwolkowski/microservices/order/internal/adapters/payment"
-	"github.com/piotrwolkowski/microservices/order/internal/application/core/api"
+	"github.com/piotrwolkowski/grpc-microservices/order/config"
+	"github.com/piotrwolkowski/grpc-microservices/order/internal/adapters/db"
+	"github.com/piotrwolkowski/grpc-microservices/order/internal/adapters/grpc"
+	"github.com/piotrwolkowski/grpc-microservices/order/internal/adapters/payment"
+	"github.com/piotrwolkowski/grpc-microservices/order/internal/application/core/api"
 )
 
 func main() {

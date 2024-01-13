@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 
-	"github.com/piotrwolkowski/microservices/order/internal/application/core/domain"
-	"github.com/piotrwolkowski/microservices/proto/golang/order"
+	"github.com/piotrwolkowski/grpc-microservices/order/internal/application/core/domain"
+	"github.com/piotrwolkowski/grpc-microservices/proto/golang/order"
 )
 
 func (a Adapter) Create(ctx context.Context, request *order.CreateOrderRequest) (*order.CreateOrderResponse, error) {

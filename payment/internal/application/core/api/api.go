@@ -3,8 +3,8 @@ package api
 import (
 	"context"
 
-	"github.com/piotrwolkowski/microservices/payment/internal/application/core/domain"
-	"github.com/piotrwolkowski/microservices/payment/internal/ports"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/application/core/domain"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/ports"
 )
 
 type Application struct {

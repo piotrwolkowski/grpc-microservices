@@ -1,4 +1,4 @@
-module github.com/piotrwolkowski/microservices/order
+module github.com/piotrwolkowski/grpc-microservices/order
 
 go 1.21.1
 

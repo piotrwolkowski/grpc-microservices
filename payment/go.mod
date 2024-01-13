@@ -1,3 +1,3 @@
-module github.com/piotrwolkowski/microservices/payment
+module github.com/piotrwolkowski/grpc-microservices/payment
 
 go 1.21.1

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/piotrwolkowski/microservices/payment/internal/application/core/domain"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/application/core/domain"
 	// "github.com/uptrace/opentelemetry-go-extra/otelgorm"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

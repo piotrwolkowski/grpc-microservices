@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/piotrwolkowski/microservices/payment/config"
-	"github.com/piotrwolkowski/microservices/payment/internal/adapters/db"
-	"github.com/piotrwolkowski/microservices/payment/internal/adapters/grpc"
-	"github.com/piotrwolkowski/microservices/payment/internal/application/core/api"
+	"github.com/piotrwolkowski/grpc-microservices/payment/config"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/adapters/db"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/adapters/grpc"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/application/core/api"
 	log "github.com/sirupsen/logrus"
 	// "go.opentelemetry.io/otel"
 	// "go.opentelemetry.io/otel/attribute"

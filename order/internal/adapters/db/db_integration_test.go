@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/docker/go-connections/nat"
-	"github.com/piotrwolkowski/microservices/order/internal/application/core/domain"
+	"github.com/piotrwolkowski/grpc-microservices/order/internal/application/core/domain"
 	"github.com/stretchr/testify/suite"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"

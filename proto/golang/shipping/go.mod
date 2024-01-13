@@ -1,4 +1,4 @@
-module github.com/piotrwolkowski/microservices/proto/golang/shipping
+module github.com/piotrwolkowski/grpc-microservices/proto/golang/shipping
 
 go 1.21.1
 

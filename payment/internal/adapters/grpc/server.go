@@ -5,9 +5,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/piotrwolkowski/microservices/payment/config"
-	"github.com/piotrwolkowski/microservices/payment/internal/ports"
-	"github.com/piotrwolkowski/microservices/proto/golang/payment"
+	"github.com/piotrwolkowski/grpc-microservices/payment/config"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/ports"
+	"github.com/piotrwolkowski/grpc-microservices/proto/golang/payment"
 
 	// "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"google.golang.org/grpc/reflection"

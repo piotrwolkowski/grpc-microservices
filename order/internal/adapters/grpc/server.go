@@ -5,9 +5,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/piotrwolkowski/microservices/order/config"
-	"github.com/piotrwolkowski/microservices/order/internal/ports"
-	"github.com/piotrwolkowski/microservices/proto/golang/order"
+	"github.com/piotrwolkowski/grpc-microservices/order/config"
+	"github.com/piotrwolkowski/grpc-microservices/order/internal/ports"
+	"github.com/piotrwolkowski/grpc-microservices/proto/golang/order"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

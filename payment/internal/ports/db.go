@@ -3,7 +3,7 @@ package ports
 import (
 	"context"
 
-	"github.com/piotrwolkowski/microservices/payment/internal/application/core/domain"
+	"github.com/piotrwolkowski/grpc-microservices/payment/internal/application/core/domain"
 )
 
 type DBPort interface {
