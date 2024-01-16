@@ -1,5 +1,7 @@
 # gRPC Microservices in Go
 
+Implementinig examples from gRPC Microservcies in Go
+
 Repo from the book: https://github.com/huseyinbabal/microservices/tree/main
 
 ```
@@ -18,6 +20,3 @@ APPLICATION_PORT=3000 \
 ENV=development \
 go run cmd/main.go
 ```
-
-## TODO
-- Get back to unit tests section. Pages: 106-112
